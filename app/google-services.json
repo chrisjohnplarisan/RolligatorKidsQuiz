@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "389498486110",
+    "firebase_url": "https://kids-quiz-ba259.firebaseio.com",
+    "project_id": "kids-quiz-ba259",
+    "storage_bucket": "kids-quiz-ba259.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389498486110:android:fe98c8fa5853cb79",
+        "android_client_info": {
+          "package_name": "com.arkay.kidsgk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389498486110-2pruo2tg0577ab3h23emu9o44ghqrrsh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arkay.kidsgk",
+            "certificate_hash": "75452d2256c64073052deb3545ef5d2c48a0592d"
+          }
+        },
+        {
+          "client_id": "389498486110-kh4se2bnntr27h3esm35fut7ms75gc7k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arkay.kidsgk",
+            "certificate_hash": "723025af07db472d106540ff634eddbfae64b796"
+          }
+        },
+        {
+          "client_id": "389498486110-nncg9huq7991dc5esrk9gb3fen7a4ho9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8zmZ3gk_vWn4m6LkEmYROFRLuhtMt9xY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389498486110-nncg9huq7991dc5esrk9gb3fen7a4ho9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="@dimen/three_fifty_dimen"
+        android:layout_height="@dimen/three_fifty_dimen"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/gk">
+        <com.arkay.kidsgk.customviews.CustomMorkoTextView
+            android:id="@+id/setting_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_18dp"
+            android:text="@string/level_locked"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_text_size"
+            android:textStyle="bold"
+            android:layout_above="@+id/levellock_lyt"
+            android:layout_centerHorizontal="true" />
+        <LinearLayout
+            android:id="@+id/levellock_lyt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten_dimen"
+            android:layout_marginRight="@dimen/ten_dimen"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/dimen_59dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+            <com.arkay.kidsgk.customviews.CustomMorkoTextView
+                android:id="@+id/level_lock_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/five_dimen"
+                android:layout_marginLeft="@dimen/five_dimen"
+                android:layout_marginTop="@dimen/ten_dimen"
+                android:text="@string/level_lock_msg"
+                android:textColor="@color/color4"
+                android:textSize="17sp" />
+
+            <com.arkay.kidsgk.customviews.CustomMorkoButton
+                android:id="@+id/cancel_lock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/color4"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/ten_dimen"
+                android:text="@string/cancel"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

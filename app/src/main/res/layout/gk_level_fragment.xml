@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/color4"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/strip">
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/one_fifty_dimen"
+        android:id="@+id/relTop"
+        android:layout_marginTop="@dimen/mius_35dp"
+        android:background="@drawable/quiz_top1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gk_level"
+            android:textColor="@color/back"
+            android:textSize="@dimen/text_thirty"
+            android:layout_centerInParent="true"
+            android:id="@+id/txtTitle"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <com.etsy.android.grid.StaggeredGridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:id="@+id/gridView"
+        android:stretchMode="columnWidth"
+        android:layout_below="@+id/relTop"
+        >
+    </com.etsy.android.grid.StaggeredGridView>
+</RelativeLayout>

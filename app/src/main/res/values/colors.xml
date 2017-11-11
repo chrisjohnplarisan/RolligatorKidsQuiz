@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0a4958</color>
+    <color name="colorPrimaryDark">#083a46</color>
+    <color name="colorAccent">#03a9f4</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="yellow">#ff9900</color>
+    <color name="red">#ff4444</color>
+    <color name="green">#26df74</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#d1d1d1</color>
+    <color name="black">#000000</color>
+    <color name="setting_divider">#e0e0e0</color>
+    <color name="drawer">#2196f3</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="dark_grey">#4e4d4d</color>
+    <color name="colorFB">#3b5998</color>
+    <color name="colorGP">#dd4b39</color>
+    <color name="light_grey">#bdbdbd</color>
+    <color name="text_blue">#3399cc</color>
+    <color name="gk_strip_color">#39c7df</color>
+
+    <color name="green_text">#4CAF50</color>
+    <color name="color1">#ff5534</color>
+    <color name="color2">#5752d0</color>
+    <color name="color3">#fed201</color>
+    <color name="color4">#2dbae7</color>
+    <color name="color5">#48dc6c</color>
+    <color name="color6">#f93b2f</color>
+    <color name="color7">#ef6c00</color>
+    <color name="color8">#629632</color>
+    <color name="color9">#fe6ccb</color>
+    <color name="level_color">#ebebeb</color>
+    <color name="back">#33cccc</color>
+    <color name="purple">#993399</color>
+    <string-array name="serial_level">
+        <item>#03a9f4</item>
+        <item>#ffc107</item>
+        <item>#083a46</item>
+    </string-array>
+
+    <color name="bg_screen1">#2196f3</color>
+    <color name="bg_screen2">#2196f3</color>
+    <color name="bg_screen3">#2196f3</color>
+
+    <!-- dots inactive colors -->
+    <color name="pager_dark_screen1">#1484dc</color>
+    <color name="pager_dark_screen2">#1484dc</color>
+    <color name="pager_dark_screen3">#1484dc</color>
+
+    <!-- dots active colors -->
+    <color name="pager_light_screen1">#53b0fa</color>
+    <color name="pager_light_screen2">#53b0fa</color>
+    <color name="pager_light_screen3">#53b0fa</color>
+
+    <array name="array_pager_active">
+        <item>@color/pager_light_screen1</item>
+        <item>@color/pager_light_screen2</item>
+        <item>@color/pager_light_screen3</item>
+    </array>
+
+    <array name="array_pager_inactive">
+        <item>@color/pager_dark_screen1</item>
+        <item>@color/pager_dark_screen2</item>
+        <item>@color/pager_dark_screen3</item>
+    </array>
+</resources>

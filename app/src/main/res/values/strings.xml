@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">Kids GK</string>
+    <string name="appname">Kids GK</string>
+    <string name="crishmus_text">Any celebration is incomplate without the balloons.They have become an integral part of any festivity.Little children squeal with joy while holding the balloons in their hands.the elder kids.cant stop bobbing it.\n Do you know how they were discoverd and what all different kinds of balloons are used today?.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="app_name_final">Reasoning Ability Test</string>
+    <string name="app_hash_tag">reasoningabilitytest</string>
+    <string name="home">Home</string>
+    <string name="setting">Settings</string>
+    <string name="balloons">Balloons</string>
+    <string name="like_us">Like Us</string>
+    <string name="about_us">About Us</string>
+    <string name="welcome_text">Reasoning develop your Reasoning prowess</string>
+    <string name="play_again">Play Again</string>
+    <string name="spend">Spend</string>
+    <string name="gems_to_get">Gems to get</string>
+    <string name="cancel">Cancel</string>
+    <string name="purchase">Purchase</string>
+    <string name="total_score">Total Score</string>
+    <string name="highest_score">Highest Score</string>
+    <string name="level_score">Level Score</string>
+    <string name="share_score">Share Score</string>
+    <string name="select_cat">Select Category</string>
+
+    <string name="copyright">" &#169;  2017"</string>
+    <string name="arkay_url">"www.arkayapps.com"</string>
+    <string name="web_url_for_webview">"http://www.arkayapps.com"</string>
+    <string name="privacy_policy_url">"http://www.arkayapps.com/privacy_policy.php"</string>
+
+    <string name="connection_not_found">Connection not found</string>
+    <string name="visit_web_site_inte_conne_require">Visit website Internet connection required</string>
+
+    <string name="about_text"></string>
+
+    <string-array name="categorty">
+        <item>Age</item>
+        <item>Area</item>
+        <item>Average</item>
+        <item>Boat and Stream</item>
+        <item>Decimal Fraction</item>
+        <item>HCF and LCM</item>
+        <item>Logarithm</item>
+        <item>Numbers</item>
+        <item>Profit and loss</item>
+        <item>Ratio</item>
+        <item>Simplification</item>
+        <item>Time and Distance</item>
+        <item>Time and Work</item>
+        <item>Train problem</item>
+        <item>Surds and Indices</item>
+        <item>Square Root and Cube Root</item>
+        <item>Volume ane Surface area</item>
+        <item>Probability</item>
+        <item>Percentage</item>
+        <item>Simple Interest</item>
+
+    </string-array>
+    <string-array name="resoning">
+        <item>Series</item>
+        <item>Distance</item>
+        <item>Mathematical</item>
+        <item>Clock and Calendar</item>
+        <item>Coding - Decoding</item>
+        <item>Comparison of Ranks</item>
+        <item>classification</item>
+        <item>Analogy Test</item>
+        <item>Computer</item>
+        <item>Blood Relation</item>
+        <item>Simplification</item>
+        <item>Arithmatic</item>
+        <item>Venn Diagrams</item>
+        <item>Number Puzzle</item>
+
+    </string-array>
+
+    <string-array name="desc">
+        <item>Age</item>
+        <item>Area</item>
+        <item>Average</item>
+        <item>Boat and Stream</item>
+        <item>Decimal Fraction</item>
+        <item>HCF and LCM</item>
+        <item>Logarithm</item>
+        <item>Numbers</item>
+        <item>Profit and loss</item>
+        <item>Ratio</item>
+        <item>Simplification</item>
+        <item>Time and Distance</item>
+        <item>Time and Work</item>
+        <item>Train problem</item>
+        <item>Surds and Indices</item>
+        <item>Square Root and Cube Root</item>
+        <item>Volume ane Surface area</item>
+        <item>Probability</item>
+        <item>Percentage</item>
+        <item>Simple Interest</item>
+    </string-array>
+
+    <string name="quote1">Logic: The art of thinking and reasoning in strict accordance with the limitations and incapacities of the human misunderstanding.</string>
+    <string name="quote2">Reasoning helps you to concentrate, improve your logic. It teaches you to play by the rules and take responsibility for your actions, how to problem solve in an uncertain environment.</string>
+    <string name="quote3">Reasoning is an argument which we have with ourselves and which reproduces internally the features of a real argument.</string>
+    <string name="quote4">The Capactiy  to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice.</string>
+    <string name="quote5">The ability to reflect is associated with critical thinking and reasoning ability. And the capacity to be alone is one of the highest levels of development. It\'s important to know how to self-soothe and be confident of other people\'s love even when they\'re not there in front of you.</string>
+    <string name="quote6">If you want to succeed  in 21st century business you need to become a critical thinker.</string>
+    <string name="quote7">Critical thinking is smarter thinking. The ability to think critically is what makes us capable of tackling new challenges – and completing them well.</string>
+    <string name="quote8">If today’s students want to compete in this global society, they must be proficient communicators, creators, critical thinkers, and collaborators.</string>
+
+    <string name="loading">Loading…</string>
+
+    <string name="profile">Profile</string>
+    <string name="music">Music</string>
+    <string name="sound">Sound</string>
+    <string name="vibration">Vibration</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="removeads">Remove Ads</string>
+    <string name="about">About</string>
+    <string name="like">Like Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about_arkay_app">About Arkay Apps</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="gk_quiz_power">GK Quiz Power</string>
+    <string name="gk_level">GK Level</string>
+    <string name="kids_fun">Kindergarten Fun</string>
+    <string name="more_app">More Apps</string>
+    <string name="share_app">Share Apps</string>
+    <string name="earn_gems">Earn 5 Gems</string>
+    <string name="rate_app">Rate Apps</string>
+    <string name="name">Name</string>
+    <string name="subject">Subject</string>
+    <string name="email">Email-id</string>
+    <string name="mobile_no">Mobile Number</string>
+    <string name="msg">Messege</string>
+    <string name="follow_twitter">Follow on Twitter</string>
+    <string name="star">Star</string>
+    <string name="gems">Gems</string>
+    <string name="total_gems">Total Gems</string>
+    <string name="score">Score</string>
+    <string name="you_earned">You Earned</string>
+    <string name="seconds">Seconds</string>
+    <string name="change_avtar">Change Avatar</string>
+    <string name="share_msg">Let me recommend Reasoning Quiz android Apps you can Download it from here:</string>
+    <string name="sign_out">Sign out</string>
+
+    <string name="facebook">Facebook</string>
+    <string name="facebook_like">Facebook Like</string>
+    <string name="share_via">Share via Applications</string>
+    <string name="share_quote_by">Share Quote Using</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">Let\'s Start</string>
+    <bool name="isTestMode">true</bool>
+
+    <string name="facebook_app_id">845335415622719</string>
+    <string name="oops_game_over">Oops! Game Over</string>
+    <string name="watch_video">Watch Video</string>
+
+
+    <string name="reasoning_test_game_over">ca-app-pub-1891613648627380/7253293356</string>
+    <string name="Reasoning_ability_earm_one_gems_rewred">ca-app-pub-1891613648627380/2683492958</string>
+
+    <string name="level">Level </string>
+    <string name="finished">Finished..</string>
+    <string name="not_completed">Fail!!</string>
+    <string name="play_next">Play Next</string>
+    <string name="success_msg">Great Job!</string>
+    <string name="failure_msg">Failure is the Key to Success</string>
+    <string name="user_profile_photo">https://lh3.googleusercontent.com/-VGAxa6EQqpE/AAAAAAAAAAI/AAAAAAAAAAA/AAyYBF5Schbnm9Q46VDam5isrYM1-CURpw/s96-c/photo.jpg</string>
+    <string name="google_in_app_purchase_base_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw0AyQcXMomBaa+5lfCqg7Dkwmh7MyJDe9PVNHQ2dCV4Ne4CCSjvZMq4PT92js6zb7CUPreuOH1PxLAF/dL+OozAtKpWeh7OcgA8FUF4AuZalY7RWF59/JKpfQipWrrM7+bvrOSTm95JvdRWmG/8FX9fgbaMCXvieELNN5YeJW1AFTGbO+woF/n/FaDl+by2NuLVxXaKfvevhCSQ6QDcUW8QflaAub/aWO2QI3IGL4Nlu/9SZqJr6Z16hEf51Xr6wyPtphvRFbrc+e99FiFz0qSa/hBlIOPRSL1VGw8mTanjspb61xG6uiC1Ac3ZTDxz1zF1hsu394pIPXAGoIrueeQIDAQAB</string>
+
+    <!--messages-->
+    <string name="play_quiz">Play Quiz</string>
+    <string name="great_job">Great job !</string>
+    <string name="quiz_level_msg">Quiz Level</string>
+    <string name="quiz_level_complate_msg">completed successfully !</string>
+    <string name="quiz_level_fail_msg">Fail!!</string>
+    <string name="level_locked">Level Locked</string>
+    <string name="level_lock_msg">This level Locked want to unlock please complate before your levels</string>
+    <string name="game_over">Game over</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+    <string name="stop_game">Stop Game</string>
+    <string name="exit_game">Are you sure you want to exit game?</string>
+    <string name="logout_msg">Are you sure you want to logout?</string>
+    <string name="logout">Logout</string>
+
+</resources>

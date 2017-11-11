@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/thrity_dimen"
+        android:layout_marginRight="@dimen/thrity_dimen">
+
+
+
+        <Button
+            android:id="@+id/btnAccess"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/rounded_circle"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="@dimen/seventy_dimen"
+            android:layout_height="@dimen/seventy_dimen"
+            android:id="@+id/imageView4"
+            android:background="@drawable/option"
+            android:elevation="2dp"
+            android:layout_alignParentTop="true"
+           />
+
+    </RelativeLayout>
+</RelativeLayout>

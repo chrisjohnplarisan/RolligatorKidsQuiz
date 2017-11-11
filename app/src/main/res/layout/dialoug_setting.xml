@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="@dimen/three_fifty_dimen"
+        android:layout_height="@dimen/three_fifty_dimen"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/gk">
+        <!--<com.arkay.kidsgk.customviews.GraphicsView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="@dimen/thrity_dimen"/>-->
+        <TextView
+            android:id="@+id/setting_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/relativeLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/setting"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_text_size"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <LinearLayout
+                android:id="@+id/linearMusic"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/sixty_dimen"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/music_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.50"
+                    android:gravity="center"
+                    android:text="@string/music"
+                    android:textColor="@color/color4"
+                    android:textSize="@dimen/twenty_text_size"
+                    android:textStyle="bold" />
+
+                <ToggleButton
+                    android:id="@+id/music_toggle"
+                    android:layout_width="0dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0.40"
+                    android:text=""
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/sixty_dimen"
+                android:layout_below="@+id/linearMusic"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/sound_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.50"
+                    android:gravity="center"
+                    android:text="@string/sound"
+                    android:textColor="@color/color4"
+                    android:textSize="@dimen/twenty_text_size"
+                    android:textStyle="bold" />
+
+                <ToggleButton
+                    android:id="@+id/sound_toggle"
+                    android:layout_width="0dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="0.40"
+                    android:text=""
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/home_img"
+            android:layout_width="@dimen/seventy_dimen"
+            android:layout_height="@dimen/seventy_dimen"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_home" />
+    </RelativeLayout>
+</LinearLayout>
